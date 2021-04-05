@@ -1,0 +1,161 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "josefin Sans", "Arial Narrow";
+}
+
+.header{
+  width:100%;
+  line-height: 100px;
+  background-color: #f5ba13;
+  display:flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  box-shadow: 5px 3px 15px -5px rgba(0,0,0,0);
+}
+
+.note.btn:hover{
+  color:#fff;
+}
+.note.btn:hover .deleteIcon{
+  color:#f4b400;
+  border:none;
+  width:50px;
+  height:50px;
+  background:transparent;
+  cursor:pointer;
+  outline:none;
+  box-shadow:3px 3px 15px -10px rgba(0,0,0,0);
+  border-radius:50%;
+}
+form{
+  min-height:50px;
+  color: #fff;
+  padding: 15px 10px 5px 10px;
+  box-shadow: 3px 10px 5px 10px;
+  border-radius: 10px;
+  position: relative;
+}
+#footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+  text-align: center;
+}
+.my_notes{
+
+}
+.main_note{
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  border-radius: 1rem;
+}
+.muibutton-root:hover{
+  background: #f4b400;
+}
+
+.plus_sign{
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+.muibutton-root:hover.plus_sign{
+  color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  z-index: 222;
+  background: transparent ;
+
+
+}
+.note{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.note.btn{
+  position: relative;
+  float:right;
+  margin-right:10px;
+  /* color:#f5ba13;*/
+  color:#f4b400;
+  border:none;
+  width:50px;
+  height:50px;
+  background:transparent;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 3px 3px 15px -10px(0,0,0,0 );
+  border-radius: 50%;
+}
+.my-notes h1{
+  color: #34495e;
+}
+.my-notes p{
+  color: grey ;
+}
+.deleteIcon{
+  width:0.7em;
+  height:0.7em;
+}
+.note h1{
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+
+}
+
+.note .btn{
+  position: relative;
+  float:right;
+  color: #f4b400;
+  border: none;
+  width:50px;
+  height: 50px;
+  background: transparent; 
+  border-radius: 50rem;
+  box-shadow: 5px 15px 5px 0px rgb(147, 147, 248);
+  
+
+}
+  
+input{
+  width: 100%;
+  line-height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin :10px;
+  font-weight: bold;
+
+
+ 
+
+}
+#rim{
+  position: absolute;
+  bottom: 0;background-color: rgb(171, 234, 250);
+  width: max-content;
+  left: 40%;
+  align-items: center;
+  size: 5 rem;
+}
